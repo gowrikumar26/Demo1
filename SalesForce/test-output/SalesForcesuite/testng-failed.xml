@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesForcesuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="My first test(failed)">
+    <classes>
+      <class name="SFDCLogin.Login">
+        <methods>
+          <include name="check_Remember_Me"/>
+          <include name="forgot_Password"/>
+          <include name="error_Login"/>
+        </methods>
+      </class> <!-- SFDCLogin.Login -->
+    </classes>
+  </test> <!-- My first test(failed) -->
+</suite> <!-- Failed suite [SalesForcesuite] -->
