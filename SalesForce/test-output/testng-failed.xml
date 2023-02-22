@@ -5,9 +5,9 @@
     <classes>
       <class name="Random_TC33_37.RandomTestCases">
         <methods>
+          <include name="TC37"/>
           <include name="close"/>
           <include name="login"/>
-          <include name="blockingCalender_TC36"/>
         </methods>
       </class> <!-- Random_TC33_37.RandomTestCases -->
     </classes>

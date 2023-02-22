@@ -14,6 +14,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Login extends ReusableMed{
 	@Test
 	public static void loginSF()  {
+		
+		
 		login();
 		
 		close();
