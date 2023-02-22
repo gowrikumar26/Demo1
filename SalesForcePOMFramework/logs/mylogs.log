@@ -1,0 +1,444 @@
+20230221 17:12:45 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 17:13:57 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 17:14:00 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 17:14:01 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 17:14:01 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 17:17:20 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 17:17:22 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 17:17:23 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 17:17:24 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 17:40:02 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 17:40:04 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 17:40:05 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 17:40:05 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 17:40:05 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 17:40:05 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 17:40:05 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 17:40:05 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 17:40:06 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 17:56:40 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 17:56:42 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 17:56:43 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 17:56:43 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 17:56:43 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 17:56:43 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 17:56:44 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 17:56:44 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 17:56:44 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:00:20 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:00:22 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:00:23 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:00:23 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:00:23 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:00:23 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:00:23 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:00:23 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:05:02 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:05:04 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:05:05 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:05:05 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:05:05 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:05:05 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:05:05 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:05:06 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:05:08 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:07:00 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:07:02 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:07:03 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:07:03 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:07:03 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:07:03 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:07:03 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:07:03 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:07:07 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:09:16 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:09:18 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:09:19 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:09:19 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:09:19 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:09:19 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:09:19 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:09:19 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:09:22 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:14:20 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:14:23 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:14:24 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:14:24 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:14:24 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:14:24 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:14:24 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:14:24 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:14:35 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:17:06 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:17:08 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:17:09 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:17:09 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:17:10 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:17:10 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:17:10 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:17:10 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:17:13 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:17:46 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:17:49 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:17:50 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:17:50 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:17:50 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:17:50 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:17:50 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:17:50 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:18:03 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:19:24 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:19:26 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:19:28 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:19:28 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:19:29 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:19:29 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:19:29 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:19:29 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:19:35 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:21:12 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:21:15 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:21:16 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:21:16 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:21:16 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:21:16 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:21:16 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:21:16 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:21:21 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:32:01 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:32:03 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:32:04 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:32:04 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:32:05 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:32:05 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:32:07 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:32:07 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:32:09 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:34:09 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:34:12 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:34:13 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:34:13 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:34:13 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:34:13 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:34:16 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:34:16 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:34:18 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:38:17 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:38:19 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:38:19 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:38:19 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:38:19 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:38:20 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:38:51 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:38:53 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:38:54 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:38:54 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:38:54 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:38:54 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:38:56 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:38:56 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:39:02 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:45:40 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:45:42 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:45:44 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:45:44 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:45:44 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:45:44 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:45:44 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:45:44 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:45:47 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:47:47 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:47:49 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:47:51 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:47:51 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:47:51 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:47:51 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:47:51 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:47:51 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:47:54 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:48:04 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 18:48:22 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:48:24 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:48:25 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:48:25 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:48:25 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:48:25 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:48:26 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:48:26 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:48:29 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:48:39 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 18:51:22 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 18:51:24 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 18:51:24 INFO  [main] tests.SFDCTest SFDCTest.java17 - inside login to salesforce
+20230221 18:51:24 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 18:51:24 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 18:51:25 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 18:51:25 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 18:51:25 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 18:51:25 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 18:51:33 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 19:36:40 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 19:36:47 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 19:36:47 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 19:36:52 INFO  [main] base.BasePage BasePage.java76 - Forgot Password linkis clicked
+20230221 19:36:52 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmationelement cleared
+20230221 19:37:00 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 19:37:00 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 19:37:03 INFO  [main] base.BasePage BasePage.java43 - passwrong username elementelement cleared
+20230221 19:42:05 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 19:42:07 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 19:42:08 INFO  [main] tests.SFDCTest SFDCTest.java18 - inside login to salesforce
+20230221 19:42:08 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 19:42:08 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 19:42:09 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 19:42:09 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 19:42:09 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 19:42:10 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 19:42:17 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:20:24 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 20:20:26 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:20:27 INFO  [main] tests.SFDCTest SFDCTest.java18 - inside login to salesforce
+20230221 20:20:27 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 20:20:27 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 20:20:28 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 20:20:28 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 20:20:28 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 20:20:31 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 20:20:35 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:24:23 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : Error_Login
+20230221 20:24:25 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:24:26 INFO  [main] tests.SFDCTest SFDCTest.java39 - Entering only user name without password to check error message
+20230221 20:24:26 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 20:24:26 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 20:24:27 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 20:24:28 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:30:12 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : Error_Login
+20230221 20:30:15 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:30:16 INFO  [main] tests.SFDCTest SFDCTest.java39 - Entering only user name without password to check error message
+20230221 20:30:16 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 20:30:16 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 20:30:17 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 20:30:17 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:33:50 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 20:33:52 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:33:54 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 20:33:54 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 20:33:54 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 20:33:54 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 20:33:54 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 20:33:55 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 20:34:41 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 20:34:43 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:34:45 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 20:34:45 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 20:34:45 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 20:34:45 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 20:34:45 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 20:34:48 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 20:34:56 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 20:34:56 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 20:34:59 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:36:56 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 20:36:59 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:37:01 INFO  [main] base.BasePage BasePage.java76 - Forgot Password linkis clicked
+20230221 20:37:01 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmationelement cleared
+20230221 20:37:01 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmationfield
+20230221 20:37:02 INFO  [main] base.BasePage BasePage.java76 - continue elementis clicked
+20230221 20:37:32 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:38:38 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 20:38:41 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:38:43 INFO  [main] base.BasePage BasePage.java76 - Forgot Password linkis clicked
+20230221 20:38:43 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmationelement cleared
+20230221 20:38:43 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmationfield
+20230221 20:38:44 INFO  [main] base.BasePage BasePage.java76 - continue elementis clicked
+20230221 20:39:14 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:40:59 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 20:41:01 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:41:02 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 20:41:02 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 20:41:02 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmation field
+20230221 20:41:04 INFO  [main] base.BasePage BasePage.java76 - continue element is clicked
+20230221 20:41:38 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 20:41:40 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:41:42 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 20:41:45 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 20:41:45 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmation field
+20230221 20:41:49 INFO  [main] base.BasePage BasePage.java76 - continue element is clicked
+20230221 20:42:21 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:42:42 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 20:42:42 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 20:43:39 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 20:43:42 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 20:47:40 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 20:47:42 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:47:43 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 20:47:46 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 20:47:46 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmation field
+20230221 20:47:51 INFO  [main] base.BasePage BasePage.java76 - continue element is clicked
+20230221 20:48:23 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:49:48 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 20:49:50 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:49:51 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 20:49:51 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 20:49:51 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmation field
+20230221 20:49:52 INFO  [main] base.BasePage BasePage.java76 - continue element is clicked
+20230221 20:50:27 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 20:51:00 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 20:51:02 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 20:51:04 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 20:51:04 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 20:51:04 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmation field
+20230221 20:51:05 INFO  [main] base.BasePage BasePage.java76 - continue element is clicked
+20230221 20:51:10 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 21:28:32 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ValidateErrorMessage
+20230221 21:28:35 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 21:28:37 INFO  [main] base.BasePage BasePage.java43 - passwrong username elementelement cleared
+20230221 21:28:37 INFO  [main] base.BasePage BasePage.java30 - text entered in wrong username elementfield
+20230221 21:28:37 INFO  [main] base.BasePage BasePage.java43 - passwrong password elementelement cleared
+20230221 21:28:37 INFO  [main] base.BasePage BasePage.java30 - text entered in wrong password elementfield
+20230221 21:28:48 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 21:28:48 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:02:42 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:02:44 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 22:02:45 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:02:45 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:02:45 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:02:45 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:02:46 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:02:48 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:02:53 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:02:53 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:06:13 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 22:06:15 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 22:06:16 INFO  [main] tests.SFDCTest SFDCTest.java24 - inside login to salesforce
+20230221 22:06:16 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 22:06:16 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:06:16 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:06:16 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:06:16 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:06:20 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:06:25 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:06:25 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : Error_Login
+20230221 22:06:26 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 22:06:28 INFO  [main] tests.SFDCTest SFDCTest.java45 - Entering only user name without password to check error message
+20230221 22:06:28 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:06:28 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:06:29 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:06:29 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:06:29 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:06:30 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 22:06:31 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:06:31 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:06:31 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:06:31 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:06:32 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:06:32 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:06:38 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:06:38 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:08:37 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:08:39 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 22:08:40 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:08:40 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:08:41 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:08:41 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:08:41 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:08:43 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:08:47 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:08:47 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:09:26 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:09:29 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 22:09:31 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:09:31 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:09:31 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:09:31 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:09:31 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:09:35 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:09:41 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:09:42 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:10:20 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:10:22 INFO  [main] Reusable.BaseClass BaseClass.java76 - going to the urlhttps://login.salesforce.com/
+20230221 22:10:26 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:10:26 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:10:26 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:10:26 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:10:27 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:10:32 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:10:39 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:10:39 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:10:44 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:13:38 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:13:40 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:13:41 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:13:41 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:13:41 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:13:41 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:13:41 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:13:45 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:13:49 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:13:50 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:13:55 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:15:17 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:15:19 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:15:20 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:15:20 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:15:20 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:15:20 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:15:20 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:15:29 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:15:29 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:15:29 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:15:34 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:20:23 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:20:25 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:20:27 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:20:27 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:20:27 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:20:27 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:20:27 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:20:29 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:20:33 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:20:33 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:20:38 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:20:48 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : loginToSalesforce
+20230221 22:20:50 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:20:51 INFO  [main] tests.SFDCTest SFDCTest.java24 - inside login to salesforce
+20230221 22:20:51 INFO  [main] base.BasePage BasePage.java56 - Waiting for an Web elementusername elementfor its visiblity
+20230221 22:20:52 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:20:52 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:20:52 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:20:52 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:20:55 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:20:59 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:20:59 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : Error_Login
+20230221 22:21:01 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:21:03 INFO  [main] tests.SFDCTest SFDCTest.java45 - Entering only user name without password to check error message
+20230221 22:21:03 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:21:03 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:21:03 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:21:03 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:21:03 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : CheckRememberMe
+20230221 22:21:05 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:21:06 INFO  [main] base.BasePage BasePage.java43 - passusername elementelement cleared
+20230221 22:21:06 INFO  [main] base.BasePage BasePage.java30 - text entered in username elementfield
+20230221 22:21:07 INFO  [main] base.BasePage BasePage.java43 - passpassword elementelement cleared
+20230221 22:21:07 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
+20230221 22:21:07 INFO  [main] base.BasePage BasePage.java76 - remember me buttonis clicked
+20230221 22:21:10 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:21:24 INFO  [main] base.BasePage BasePage.java76 - User menuis clicked
+20230221 22:21:24 INFO  [main] base.BasePage BasePage.java76 - logout from User menuis clicked
+20230221 22:21:29 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:21:29 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ForgotPassword
+20230221 22:21:31 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:21:34 INFO  [main] base.BasePage BasePage.java76 - Forgot Password link is clicked
+20230221 22:21:34 INFO  [main] base.BasePage BasePage.java43 - passusername element for email confirmation element cleared
+20230221 22:21:34 INFO  [main] base.BasePage BasePage.java30 - text entered in username element for email confirmation field
+20230221 22:21:35 INFO  [main] base.BasePage BasePage.java76 - continue element is clicked
+20230221 22:21:40 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser
+20230221 22:21:40 INFO  [main] Reusable.BaseClass BaseClass.java59 - started testscript : ValidateErrorMessage
+20230221 22:21:42 INFO  [main] Reusable.BaseClass BaseClass.java78 - going to the urlhttps://login.salesforce.com/
+20230221 22:21:44 INFO  [main] base.BasePage BasePage.java43 - passwrong username elementelement cleared
+20230221 22:21:44 INFO  [main] base.BasePage BasePage.java30 - text entered in wrong username elementfield
+20230221 22:21:44 INFO  [main] base.BasePage BasePage.java43 - passwrong password elementelement cleared
+20230221 22:21:44 INFO  [main] base.BasePage BasePage.java30 - text entered in wrong password elementfield
+20230221 22:21:55 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
+20230221 22:21:55 INFO  [main] Reusable.BaseClass BaseClass.java71 - closing the browser

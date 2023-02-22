@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesForcesuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SalesforceTest(failed)">
+    <parameter name="browsername" value="chromedriver"/>
+    <classes>
+      <class name="UserMenuDropDown_TC5_9.Dropdown_TC5_6">
+        <methods>
+          <include name="getDriver"/>
+          <include name="post"/>
+          <include name="myProfile_TC6"/>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+          <include name="uploadPhoto"/>
+          <include name="dropdownMenu_TC5"/>
+          <include name="setUpAfterTest"/>
+          <include name="uploadingFile"/>
+        </methods>
+      </class> <!-- UserMenuDropDown_TC5_9.Dropdown_TC5_6 -->
+      <class name="UserMenuDropDown_TC5_9.DeveloperConsole_TC8">
+        <methods>
+          <include name="getDriver"/>
+          <include name="dConsole"/>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+          <include name="setUpAfterTest"/>
+        </methods>
+      </class> <!-- UserMenuDropDown_TC5_9.DeveloperConsole_TC8 -->
+      <class name="UserMenuDropDown_TC5_9.Logout_TC9">
+        <methods>
+          <include name="getDriver"/>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+          <include name="setUpAfterTest"/>
+          <include name="logOutSF_TC9"/>
+        </methods>
+      </class> <!-- UserMenuDropDown_TC5_9.Logout_TC9 -->
+      <class name="UserMenuDropDown_TC5_9.MySettings_TC7">
+        <methods>
+          <include name="getDriver"/>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+          <include name="display"/>
+          <include name="emailUpdate"/>
+          <include name="reminder"/>
+          <include name="setUpAfterTest"/>
+          <include name="publiclink"/>
+        </methods>
+      </class> <!-- UserMenuDropDown_TC5_9.MySettings_TC7 -->
+    </classes>
+  </test> <!-- SalesforceTest(failed) -->
+</suite> <!-- Failed suite [SalesForcesuite] -->

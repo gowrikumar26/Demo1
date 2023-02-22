@@ -130,27 +130,39 @@ public class RandomTestCases extends ReusableMed {
 		
 		WebElement newevent = driver.findElement(By.xpath("//div[@id='bCalDiv']/div/div[2]/span[6]/input"));
 		click(newevent);
-		
+		Thread.sleep(3000);
 		closeAddPage();
 		Thread.sleep(10000);
 		WebElement subCombo = driver.findElement(By.xpath("//tbody/tr[2]/td[2]/div/a"));
 		click(subCombo);
 		waiting();
+		String baseWindowHandle = driver.getWindowHandle();
+		System.out.println("id of parent window "+baseWindowHandle);
 		
-		//driver.getWindowHandles();
-	
+		Set<String> allWindowHandle = driver.getWindowHandles();
+		for(String handle : allWindowHandle) {
+			if(!baseWindowHandle.equals(handle)) {
+				driver.switchTo().window(handle);
+				break;
+			}
+		}
+		driver.manage().window().maximize();
 		
-		Thread.sleep(3000);
-		Set<String> childWindowHandles = driver.getWindowHandles();
-	     Iterator<String> iterator = childWindowHandles.iterator();
-	     iterator.hasNext();
-	     System.out.println("im a child window");
+		
+//		Thread.sleep(3000);
+//		Set<String> childWindowHandles = driver.getWindowHandles();
+//	     Iterator<String> iterator = childWindowHandles.iterator();
+//	     iterator.hasNext();
+//	     System.out.println("im a child window");
 	     
-	     Thread.sleep(6000);
-	     WebElement other = driver.findElement(By.xpath("//body/div[2]/ul/li[5]/a"));
+	     Thread.sleep(5000);
+	     WebElement other = driver.findElement(By.xpath("//body/div[2]/ul/li[5]/a[contains(text(),'Other')]"));
+	     Thread.sleep(3000);
 	     click(other);
-	     driver.switchTo().parentFrame();///Users/ku2e8te/git/repository
+	     System.out.println("clicked other");
+	     driver.switchTo().window(baseWindowHandle);///Users/ku2e8te/git/repository
 	     
+	     System.out.println("moved parent window");
 	     WebElement endTime = driver.findElement(By.id("EndDateTime_time"));
 	     click(endTime);
 	     Thread.sleep(3000);
@@ -159,5 +171,75 @@ public class RandomTestCases extends ReusableMed {
 	     click(save);
 	     Thread.sleep(5000);
 		
+	}
+	
+	@Test
+	public static void TC37() throws InterruptedException {
+		WebElement home = driver.findElement(By.xpath("//a[contains(text(),'Home')]"));
+		click(home);
+		
+		WebElement date = driver.findElement(By.xpath("//div[@id='ptBody']/div/div[2]/span[2]/a"));
+		click(date);
+		
+		System.out.println(Math.random());
+		WebElement newevent = driver.findElement(By.xpath("//div[@id='bCalDiv']/div/div[2]/span[6]/input"));
+		click(newevent);
+		Thread.sleep(3000);
+		closeAddPage();
+		Thread.sleep(5000);
+		WebElement subCombo = driver.findElement(By.xpath("//tbody/tr[2]/td[2]/div/a"));
+		click(subCombo);
+		waiting();
+		String baseWindowHandle = driver.getWindowHandle();
+		System.out.println("id of parent window "+baseWindowHandle);
+		
+		Set<String> allWindowHandle = driver.getWindowHandles();
+		for(String handle : allWindowHandle) {
+			if(!baseWindowHandle.equals(handle)) {
+				driver.switchTo().window(handle);
+				break;
+			}
+		}
+		driver.manage().window().maximize();
+		
+		
+//		Thread.sleep(3000);
+//		Set<String> childWindowHandles = driver.getWindowHandles();
+//	     Iterator<String> iterator = childWindowHandles.iterator();
+//	     iterator.hasNext();
+//	     System.out.println("im a child window");
+	     
+	     Thread.sleep(5000);
+	     WebElement other = driver.findElement(By.xpath("//body/div[2]/ul/li[5]/a[contains(text(),'Other')]"));
+	     Thread.sleep(3000);
+	     click(other);
+	     System.out.println("clicked other");
+	     driver.switchTo().window(baseWindowHandle);///Users/ku2e8te/git/repository
+	     
+	     System.out.println("moved parent window");
+	     WebElement endTime = driver.findElement(By.id("EndDateTime_time"));
+	     click(endTime);
+	     Thread.sleep(3000);
+	     
+	     WebElement recurrence = driver.findElement(By.id("IsRecurrence"));
+	     click(recurrence);//
+	     
+	     waiting();
+	     WebElement weeklyRadioButton = driver.findElement(By.id("rectypeftw"));
+	     click(weeklyRadioButton);
+	     
+	     WebElement recursEvery = driver.findElement(By.id("wi"));
+	     recursEvery.clear();
+	     recursEvery.sendKeys("1");
+	     
+	     WebElement endDate = driver.findElement(By.id("RecurrenceEndDateOnly"));
+	     endDate.sendKeys("2/28/2023");
+	     
+	     waiting();
+  
+	     Thread.sleep(3000);
+	     WebElement save = driver.findElement(By.xpath("//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/form[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/input[1]"));
+	     click(save);
+	     Thread.sleep(5000);
 	}
 }
