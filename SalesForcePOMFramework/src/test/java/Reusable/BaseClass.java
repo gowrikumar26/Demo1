@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.sql.Timestamp;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
@@ -154,22 +155,22 @@ public class BaseClass {
 	
 	@Test
 	public  String getScreenshotOfThePage(WebDriver driver)  {
-		String date = new SimpleDateFormat("yyyy_mm_dd_hh_mm_ss").format(new Date(0));
+		String date = new SimpleDateFormat("yyyy_mm_dd_hh_mm_ss").format(new Timestamp(System.currentTimeMillis()));
 		String curDir = System.getProperty("user.dir");
 		TakesScreenshot screenshot=(TakesScreenshot)driver;
 		String image = screenshot.getScreenshotAs(OutputType.BASE64);
-		return image;
+		//return image;
 		
-//		File imageFile = screenshot.getScreenshotAs(OutputType.FILE);
-//		File destFile = new File(Constants.SCREENSHOTS_DIRECTORY_PATH+date+".png");
-//		try {
-//			FileHandler.copy(imageFile, destFile);
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		System.out.println("captured");
-//		return destFile.getAbsolutePath();
+		File imageFile = screenshot.getScreenshotAs(OutputType.FILE);
+		File destFile = new File(Constants.SCREENSHOTS_DIRECTORY_PATH+date+".png");
+		try {
+			FileHandler.copy(imageFile, destFile);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("captured");
+		return destFile.getAbsolutePath();
 	}
 	
 }

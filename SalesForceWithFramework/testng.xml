@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SalesForcesuite">
+	<test name="SalesforceTest">
+		<parameter name="browsername" value="chromedriver"></parameter>
+	<packages>
+		<package name="UserMenuDropDown_TC5_9" />
+		<package name="SFDCLogin_TC1_4"></package>
+		<package name="UserMenuDropDown_TC5_9"></package>
+		<package name="CreateAccount_TC10_14"></package>
+		<package name="CreateOpportunities"></package>
+		<package name="Leads_TC20_24"></package>
+		<package name="Contacts_TC25_32"></package>
+		<package name="Random_TC33_37"></package>
+	</packages>
+	</test>
+</suite>

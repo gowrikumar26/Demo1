@@ -22,7 +22,7 @@ public class SFDCTest extends BaseClass {//TekarchAutomation in divya's video
 @Test(priority = 0)
 	public void loginToSalesforce() {
 		logger.info("inside login to salesforce");
-		String expected = "Home";
+		String expected = "ome";
 		//extentReport
 		PropertiesUtility propertiesUtility = new PropertiesUtility();
 		propertiesUtility.loadFile("dataProperties");

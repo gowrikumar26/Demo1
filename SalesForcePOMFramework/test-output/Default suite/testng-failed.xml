@@ -7,8 +7,8 @@
         <methods>
           <include name="teardownAfterTestMethod"/>
           <include name="setUpBeforeTestMethod"/>
-          <include name="ForgotPassword"/>
           <include name="setUpBeforeTest"/>
+          <include name="loginToSalesforce"/>
         </methods>
       </class> <!-- com.tests.SFDCTest -->
     </classes>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-22T19:03:31 PST" name="Default suite" finished-at="2023-02-22T19:04:12 PST" duration-ms="40805">
+    <groups>
+    </groups>
+    <test started-at="2023-02-22T19:03:31 PST" name="Default test" finished-at="2023-02-22T19:04:12 PST" duration-ms="40805">
+      <class name="SFDCLogin_TC1_4.Login">
+        <test-method is-config="true" signature="setUpBeforeTest()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:31 PST" name="setUpBeforeTest" finished-at="2023-02-22T19:03:33 PST" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTest -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.reflect.Method)[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:33 PST" name="login" finished-at="2023-02-22T19:03:36 PST" duration-ms="3252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void SFDCLogin_TC1_4.Login.error_LoginTC_1() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="error_LoginTC_1()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:36 PST" name="error_LoginTC_1" finished-at="2023-02-22T19:03:37 PST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- error_LoginTC_1 -->
+        <test-method is-config="true" signature="logOutSF()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:37 PST" name="logOutSF" finished-at="2023-02-22T19:03:37 PST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSF -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.reflect.Method)[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:37 PST" name="login" finished-at="2023-02-22T19:03:39 PST" duration-ms="2602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void SFDCLogin_TC1_4.Login.loginSF_TC_2() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loginSF_TC_2()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:39 PST" name="loginSF_TC_2" finished-at="2023-02-22T19:03:49 PST" duration-ms="9512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSF_TC_2 -->
+        <test-method is-config="true" signature="logOutSF()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:49 PST" name="logOutSF" finished-at="2023-02-22T19:03:49 PST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSF -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.reflect.Method)[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:49 PST" name="login" finished-at="2023-02-22T19:03:51 PST" duration-ms="2209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void SFDCLogin_TC1_4.Login.forgot_Password_TC_4A() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="forgot_Password_TC_4A()[pri:1, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:51 PST" name="forgot_Password_TC_4A" finished-at="2023-02-22T19:03:53 PST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_TC_4A -->
+        <test-method is-config="true" signature="logOutSF()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:53 PST" name="logOutSF" finished-at="2023-02-22T19:03:53 PST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSF -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.reflect.Method)[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:53 PST" name="login" finished-at="2023-02-22T19:03:56 PST" duration-ms="3150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void SFDCLogin_TC1_4.Login.checkRememberMe_TC_3() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="checkRememberMe_TC_3()[pri:2, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:03:56 PST" name="checkRememberMe_TC_3" finished-at="2023-02-22T19:04:08 PST" duration-ms="12162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRememberMe_TC_3 -->
+        <test-method is-config="true" signature="logOutSF()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:04:08 PST" name="logOutSF" finished-at="2023-02-22T19:04:08 PST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSF -->
+        <test-method is-config="true" signature="login(java.lang.String,java.lang.reflect.Method)[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:04:08 PST" name="login" finished-at="2023-02-22T19:04:11 PST" duration-ms="2555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void SFDCLogin_TC1_4.Login.login_error_msg_TC_4B() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_error_msg_TC_4B()[pri:10, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:04:11 PST" name="login_error_msg_TC_4B" finished-at="2023-02-22T19:04:12 PST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_error_msg_TC_4B -->
+        <test-method is-config="true" signature="logOutSF()[pri:0, instance:SFDCLogin_TC1_4.Login@32ee6fee]" started-at="2023-02-22T19:04:12 PST" name="logOutSF" finished-at="2023-02-22T19:04:12 PST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSF -->
+      </class> <!-- SFDCLogin_TC1_4.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

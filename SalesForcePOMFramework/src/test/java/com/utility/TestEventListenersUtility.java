@@ -33,6 +33,7 @@ public class TestEventListenersUtility implements ITestListener {
 		BaseClass ob=new BaseClass();
 		driver = ob.returnDriverInstance();
 		String path = ob.getScreenshotOfThePage(driver);
+		System.out.println(" Screen shot path==> "+path);
 		//extentreport.logTestFailedWithException(result.getThrowable()); have to chk this mwthod
 		extentreport.logTestScreenshot(path);
 	}

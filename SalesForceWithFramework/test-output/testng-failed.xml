@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesForcesuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SalesforceTest(failed)">
+    <parameter name="browsername" value="chromedriver"/>
+    <classes>
+      <class name="Leads_TC20_24.LeadsTab">
+        <methods>
+          <include name="defaultsView_TC22"/>
+          <include name="login"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+        </methods>
+      </class> <!-- Leads_TC20_24.LeadsTab -->
+      <class name="CreateAccount_TC10_14.Account_TC10_14">
+        <methods>
+          <include name="edit_TC12"/>
+          <include name="login"/>
+          <include name="mergeAccount_TC13"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+          <include name="clickOnAcc_TC14"/>
+        </methods>
+      </class> <!-- CreateAccount_TC10_14.Account_TC10_14 -->
+      <class name="UserMenuDropDown_TC5_9.Dropdown_TC5_6">
+        <methods>
+          <include name="post"/>
+          <include name="login"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+        </methods>
+      </class> <!-- UserMenuDropDown_TC5_9.Dropdown_TC5_6 -->
+      <class name="SFDCLogin_TC1_4.Login">
+        <methods>
+          <include name="login_error_msg_TC_4B"/>
+          <include name="login"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+          <include name="error_LoginTC_1"/>
+        </methods>
+      </class> <!-- SFDCLogin_TC1_4.Login -->
+      <class name="Random_TC33_37.RandomTestCases">
+        <methods>
+          <include name="login"/>
+          <include name="setUpBeforeTest"/>
+          <include name="logOutSF"/>
+          <include name="tabCustom_TC35"/>
+        </methods>
+      </class> <!-- Random_TC33_37.RandomTestCases -->
+    </classes>
+  </test> <!-- SalesforceTest(failed) -->
+</suite> <!-- Failed suite [SalesForcesuite] -->
