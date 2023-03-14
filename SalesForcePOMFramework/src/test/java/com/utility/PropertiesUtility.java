@@ -13,7 +13,7 @@ public class PropertiesUtility {
 	public static String readPropertyData(String key) throws IOException {
 		String curDir = System.getProperty("user.dir");
 		System.out.println(curDir);
-		FileInputStream fis = new FileInputStream(new File(curDir + "/src/test/resources/data.properties"));
+		FileInputStream fis = new FileInputStream(new File(curDir + Constants.DATA_PROPERTIES ));//"/src/test/resources/data.properties"
 		Properties ob = new Properties();
 		ob.load(fis);
 		String value = ob.getProperty(key);
