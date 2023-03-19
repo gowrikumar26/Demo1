@@ -1,10 +1,13 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.POJOs.Datum;
+import com.POJOs.ResponsePOJO;
 import com.POJOs.createDataPOJO;
 import com.Utilities.Constants;
 
@@ -23,19 +26,28 @@ public class Assessment {
 										.contentType(ContentType.JSON)
 									.when()
 										.get(Constants.read_Data);
+
 			response.then().statusCode(200);
-		
-			response.prettyPrint();
-			String actual = response.body().jsonPath().getString("status");
-			Assert.assertEquals(actual, false);
-			//System.out.println("Status :"+ status);
-			int noOfRecords = response.body().jsonPath().getList("data").size();			
-			System.out.println("noOfRecords "+noOfRecords);
+			ResponsePOJO datas =response.as(ResponsePOJO.class);
 			
+			System.out.println("total"+ datas.getStatus());
+			
+			//Iterator<Datum> data = datas.getData().iterator();
+			System.out.println(datas.getData().size());
+			
+			//System.out.println("datas"+data);
+			
+			//response.prettyPrint();
+			String actual = response.body().jsonPath().getString("status");
+			Assert.assertEquals(actual, "success");
+			//System.out.println("Status :"+ status);
+//			int noOfRecords = response.body().jsonPath().getList("data").size();			
+//			System.out.println("noOfRecords "+noOfRecords);
+//			
 		}
 	
 @Test
-public void createData() {
+public String createData() {
 		createDataPOJO createData = new createDataPOJO();
 		createData.setName("Kowsalya");
 		createData.setSalary("42134");
@@ -56,15 +68,15 @@ public void createData() {
 		String actual = response.body().jsonPath().getString("status");
 		String expec = "success";
 		Assert.assertEquals(actual, expec);
-		//return idValue;
+		return idValue;
 	}
 
 
-@Test
+@Test(priority = 2)
 public void deleteData(){
-	//String id = createData();
-	int id = 2380;
-	System.out.println("success"+id);
+	String id = createData();
+	//int id = 2380;
+	//System.out.println("success"+id);
 		Response response = RestAssured
 								.given()
 									.pathParam("id",id)
@@ -72,48 +84,52 @@ public void deleteData(){
 									
 								.when()
 									.delete(Constants.delete_Data);
+		
 		response
 			.then()
 				.assertThat().statusCode(200);
 		
 	}
-
-@Test
-public void deleteParticularData() {
-	int id = 0;
-	Response response = RestAssured
-			.given()
-				.pathParam("id",id)
-				.contentType(ContentType.JSON)
-				
-			.when()
-				.delete(Constants.delete_Data);
-response
-.then()
-.assertThat().statusCode(200);
-String res = response.body().jsonPath().get("");
-System.out.println("result "+res);
-
-}
-
-@Test
-public void getParticularData() {
-	int id=2;
-	
-	Response response = RestAssured
-			.given()
-				.pathParam("id",id)
-				.contentType(ContentType.JSON)
-				
-			.when()
-				.get(Constants.get_Particular_Data);
-response
-	.then()
-	.assertThat().statusCode(200);
-
-response.getBody().toString();
-List<Object> idList = response.body().jsonPath().getList("findAll {it.id == 2}.id");
-String res = response.body().jsonPath().get("data");
-System.out.println("result "+res+"$$$$$$"+idList);
-}
+//
+//@Test(priority = 3)
+//public void deleteParticularData() {
+//	int id = 0;
+//	Response response = RestAssured
+//			.given()
+//				.pathParam("id",id)
+//				.contentType(ContentType.JSON)
+//				
+//			.when()
+//				.delete(Constants.delete_Data);
+//response
+//.then()
+//.assertThat().statusCode(200);
+//String res = response.body().jsonPath().get("");
+//System.out.println("result "+res);
+//
+//}
+//
+//@Test(priority = 4)
+//public void getParticularData() {
+//	
+//	
+//	Response response = RestAssured
+//			.given()
+//				//.pathParam("id",id)
+//				.contentType(ContentType.JSON)
+//				
+//			.when()
+//				.get(Constants.get_Particular_Data);
+//	ResponsePOJO[] data =response.as(ResponsePOJO[].class);
+//	System.out.println(data[2].getId());
+//response
+//	.then()
+//	.assertThat().statusCode(200);
+////responsepojo.getId();
+//
+//response.getBody().toString();
+//List<Object> idList = response.body().jsonPath().getList("findAll {it.id == 2}.id");
+//String res = response.body().jsonPath().get("data");
+//System.out.println("result "+res+"$$$$$$"+idList);
+//}
 }

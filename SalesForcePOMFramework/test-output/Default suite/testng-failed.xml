@@ -7,7 +7,11 @@
         <methods>
           <include name="teardownAfterTestMethod"/>
           <include name="setUpBeforeTestMethod"/>
+          <include name="ValidateErrorMessage"/>
+          <include name="ForgotPassword"/>
           <include name="setUpBeforeTest"/>
+          <include name="CheckRememberMe"/>
+          <include name="Error_Login"/>
           <include name="loginToSalesforce"/>
         </methods>
       </class> <!-- com.tests.SFDCTest -->

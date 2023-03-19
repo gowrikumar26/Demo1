@@ -515,3 +515,5 @@
 20230221 23:00:46 INFO  [main] base.BasePage BasePage.java30 - text entered in password elementfield
 20230221 23:00:48 INFO  [main] base.BasePage BasePage.java76 - login buttonis clicked
 20230221 23:00:53 INFO  [main] Reusable.BaseClass BaseClass.java72 - closing the browser
+20230315 08:23:54 INFO  [main] Reusable.BaseClass BaseClass.java60 - started testscript : loginToSalesforce
+20230315 08:25:42 INFO  [main] Reusable.BaseClass BaseClass.java60 - started testscript : loginToSalesforce

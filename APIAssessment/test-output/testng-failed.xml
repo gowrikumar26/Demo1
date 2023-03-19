@@ -5,7 +5,7 @@
     <classes>
       <class name="Assessment">
         <methods>
-          <include name="getParticularData"/>
+          <include name="getData"/>
         </methods>
       </class> <!-- Assessment -->
     </classes>
